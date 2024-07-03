@@ -64,5 +64,4 @@ You can check the [luwi.chat.mobile repository](https://bitbucket.org/netsolutio
 
 # Logos and Icons
 
-- Logos: [See Logos](assets/Logo)
-- Icons: [See App Icons Designs](assets/Icon)
+- [Logos and Icons](assets)

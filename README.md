@@ -21,12 +21,12 @@
 ## Login Test API
 
 For login operations **VPN REQUIRED**:
-[Test API (Login)](http://testauth.prospot.online/swagger/index.html)
+[(http://testauth.prospot.online/swagger/index.html](http://testauth.prospot.online/swagger/index.html)
 
 ## Login Prod API
 
 For login operations:
-[Prod API (Login)](http://auth.prospot.online/swagger/index.html)
+[http://auth.prospot.online/swagger/index.html](http://auth.prospot.online/swagger/index.html)
 
 ## Login Request Sample Response
 

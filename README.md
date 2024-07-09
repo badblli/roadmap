@@ -1,12 +1,34 @@
 # Swagger Documents
 
-- Test API (for login operations **VPN REQUIRED**): [http://testauth.prospot.online/swagger/index.html](http://testauth.prospot.online/swagger/index.html)
+## Index
 
-- Prod API (for login operations): [http://auth.prospot.online/swagger/index.html](http://auth.prospot.online/swagger/index.html)
+- [Login Test API](#test-api-login)
+- [Login Prod API](#prod-api-login)
+- [Login Request Sample Response](#login-request-sample-response)
+- [Whatsapp Test API](#test-api-whatsapp)
+- [Whatsapp Prod API](#prod-api-whatsapp)
+  - [Send Media Message](#send-media-message)
+  - [Send Text Message](#send-text-message)
+- [CRM Test API](#test-api-crm)
+- [CRM Prod API](#prod-api-crm)
+  - [Make Message Read](#make-message-as-read)
+- [SignalR Hubs](#signalr-hubs)
+  - [Connection Example](#connection-example)
+  - [Hub Events](#hub-events)
+- [Global Function Examples](#global-function-examples)
+- [Logos and Icons](#logos-and-icons)
 
-![Postman Request](https://i.hizliresim.com/tpbzcmi.png)
+## Login Test API
 
-# Sample response for login request
+For login operations **VPN REQUIRED**:
+[Test API (Login)](http://testauth.prospot.online/swagger/index.html)
+
+## Login Prod API
+
+For login operations:
+[Prod API (Login)](http://auth.prospot.online/swagger/index.html)
+
+## Login Request Sample Response
 
 ```json
 {
@@ -36,6 +58,38 @@
   }
 }
 ```
+
+## Whatsapp Test API
+
+For Whatsapp Test operations **VPN REQUIRED**:
+[http://testwhatsappapi.prospot.online/swagger/index.html](http://testwhatsappapi.prospot.online/swagger/index.html)
+
+## Whatsapp Prod API
+
+For Whatsapp Prod operations:
+[http://whatsappapi.prospot.online/swagger/index.html](http://whatsappapi.prospot.online/swagger/index.html)
+
+### Send Media Message
+
+/Whatsapp/SendWhatsappMediaMessage (Media Mesajlarının gönderimi için kullanılır base64 formatta)
+
+### Send Text Message
+
+/WhatsappChat/SendChatMessage (text message gönderimi için kullanılır)
+
+## CRM Test API
+
+For CRM Test operations **VPN REQUIRED**:
+[http://testcrm.prospot.online/swagger/index.html](http://testcrm.prospot.online/swagger/index.html)
+
+## CRM Prod API
+
+For CRM Prod operations:
+[http://crm.prospot.online/swagger/index.html](http://crm.prospot.online/swagger/index.html)
+
+### Make Message Read
+
+/CRM/MakeMessageRead (Okundu bilgisini göndermek için kullanılır)
 
 # Example for connection to SignalR Hubs
 

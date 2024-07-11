@@ -19,3 +19,5 @@ await Firebase.initializeApp(
 ```
 
 ![firebaseinitialize](image-1.png)
+
+https://firebase.google.com/docs/flutter/setup?hl=en&authuser=3&platform=ios#available-plugins

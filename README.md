@@ -12,6 +12,7 @@
 - [CRM Test API](#test-api-crm)
 - [CRM Prod API](#prod-api-crm)
   - [Make Message Read](#make-message-as-read)
+  - [FireBase Notification](#get-firebase-token)
 - [SignalR Hubs](#signalr-hubs)
   - [Connection Example](#connection-example)
   - [Hub Events](#hub-events)
@@ -89,7 +90,9 @@ For CRM Prod operations:
 
 ### Make Message Read
 
-/CRM/MakeMessageRead (Okundu bilgisini göndermek için kullanılır)
+/CRM/MakeMessageRead (Used to send message reading info)
+
+/CRM/GetFireBaseToken (To send Firebase Push Notification Token (FCM) to the service)
 
 # Example for connection to SignalR Hubs
 
